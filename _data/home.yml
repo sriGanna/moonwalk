@@ -1,37 +1,48 @@
 navbar_entries:
-  - title: about
+  - title: Home
+    url: index
+
+  - title: About
     url: about
 
-  - title: blog
-    url: blog
+  - title:  CV
+    url: CV
 
-  - title: website
-    url: https://www.abhinav.co
+  - title: Projects
+    url: projects
 
 project_entries:
-  - title: Project 1
-    url: overview-post
-    desc: This is an example project, configured in _data/home.yml
+  - title: Vibroraptile
+    url: vibroraptile
+    desc: an interactive approach to natural museums 
 
-  - title: Project 2
+  - title: Interactive Audio-Tactile Prototyping
     url: overview-post
     desc: Projects are shown in card layout
 
-  - title: Project 3
+  - title: Psychophysics study
     url: overview-post
     desc: You can control visibility from _config.yml file
 
-  - title: Project 4
+  - title: HandsUP - Integrating Real-World Gestures into Digital Meetings (Human-Computer Interaction, Fall 2020) 
     url: overview-post
     desc: This project uses highlight markup, configured in _data/home.yml
     highlight: WIP
 
-  - title: Project 5
+  - title: Haptic Guidance to Navigate Photographs 
     url: overview-post
     desc: Moonwalk also has horizontal list (used in header and footer)
     highlight: WIP
 
-  - title: Project 6
+  - title: Mechatronic Brace
+    url: overview-post
+    desc: It also has a scalable vertical list (in case you need it)
+
+  - title: Grow with the flow
+    url: overview-post
+    desc: It also has a scalable vertical list (in case you need it)
+
+  - title: Haptic Journal
     url: overview-post
     desc: It also has a scalable vertical list (in case you need it)
 
@@ -54,17 +65,7 @@ old_project_entries:
     desc: The better people know you, the better they collaborate
 
 footer_entries:
-  - title: abhinav's homepage
-    url: https://www.abhinav.co
 
-  - title: twitter
-    url: https://twitter.com/abhinav
-
-  - title: github
-    url: https://github.com/abhinavs
-
-  - title: feed
-    url: feed.xml
 
 misc_entries:
   - title: this is an example vertical list
